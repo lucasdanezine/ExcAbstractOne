@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using ExcAbstractOne.Entities.Enums;
-
+using System.M
 namespace ExcAbstractOne.Entities
 {
     class Circle : Shape
@@ -16,7 +16,8 @@ namespace ExcAbstractOne.Entities
 
         public override double Area()
         {
-            throw new NotImplementedException();
+            return Math.PI * Math.Sqrt(Rad);
+                
         }
     }
 }
