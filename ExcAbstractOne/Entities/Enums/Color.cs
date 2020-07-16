@@ -8,7 +8,7 @@ namespace ExcAbstractOne.Entities.Enums
     {
         Black = 0,
         Blue = 1,
-        Red = 2
+        Red = 2 
 
     }
 }
