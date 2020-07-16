@@ -16,7 +16,7 @@ namespace ExcAbstractOne.Entities
 
         public override double Area()
         {
-            return Math.PI * Math.Sqrt(Rad);
+            return Math.PI * (Rad*Rad);
                 
         }
     }
